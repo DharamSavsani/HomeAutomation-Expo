@@ -4,27 +4,26 @@
     "slug": "HomeAutomation",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "icon": "./assets/icon.png",
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
+      "userInterfaceStyle": "light",
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "userInterfaceStyle": "light",
+      "package": "com.dharam444.HomeAutomation"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3271eac7-6093-4453-b6a7-b070ffa8a931"
+      }
     }
   }
 }
